@@ -2,6 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# This is a test modification
+
 @app.route('/')
 def home():
     return render_template('index.html')
